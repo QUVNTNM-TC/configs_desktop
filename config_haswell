@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# crosstool-NG crosstool-ng-1.23.0-236-g42429d91 Configuration
+# crosstool-NG crosstool-ng-1.23.0-242-g521d6c17 Configuration
 #
 CT_CONFIGURE_has_static_link=y
 CT_CONFIGURE_has_wget=y
@@ -13,7 +13,6 @@ CT_CONFIGURE_has_autoconf_2_63_or_newer=y
 CT_CONFIGURE_has_autoreconf_2_63_or_newer=y
 CT_CONFIGURE_has_automake_1_15_or_newer=y
 CT_CONFIGURE_has_gnu_m4_1_4_12_or_newer=y
-CT_CONFIGURE_has_svn=y
 CT_CONFIGURE_has_git=y
 CT_MODULES=y
 
@@ -32,8 +31,7 @@ CT_EXPERIMENTAL=y
 #
 # Paths
 #
-CT_LOCAL_TARBALLS_DIR="/home/haze/storage/sources/cross_sources"
-CT_SAVE_TARBALLS=y
+CT_LOCAL_TARBALLS_DIR=""
 CT_WORK_DIR="${CT_TOP_DIR}/.build"
 CT_BUILD_TOP_DIR="${CT_WORK_DIR}/${CT_HOST:+HOST-${CT_HOST}/}${CT_TARGET}"
 CT_PREFIX_DIR="${CT_PREFIX:-${HOME}/x-tools}/${CT_HOST:+HOST-${CT_HOST}/}${CT_TARGET}"
@@ -223,7 +221,7 @@ CT_LINUX_V_4_13=y
 # CT_LINUX_V_3_10 is not set
 # CT_LINUX_V_3_4 is not set
 # CT_LINUX_V_3_2 is not set
-CT_LINUX_VERSION="4.13.4"
+CT_LINUX_VERSION="4.13.9"
 CT_LINUX_MIRRORS="$(CT_Mirrors kernel.org linux ${CT_LINUX_VERSION})"
 CT_LINUX_ARCHIVE_FILENAME="@{pkg_name}-@{version}"
 CT_LINUX_ARCHIVE_DIRNAME="@{pkg_name}-@{version}"
@@ -349,7 +347,7 @@ CT_GLIBC_FORCE_UNWIND=y
 # CT_GLIBC_KERNEL_VERSION_NONE is not set
 CT_GLIBC_KERNEL_VERSION_AS_HEADERS=y
 # CT_GLIBC_KERNEL_VERSION_CHOSEN is not set
-CT_GLIBC_MIN_KERNEL="4.13.4"
+CT_GLIBC_MIN_KERNEL="4.13.9"
 CT_LIBC_SUPPORT_THREADS_ANY=y
 CT_LIBC_SUPPORT_THREADS_NATIVE=y
 
