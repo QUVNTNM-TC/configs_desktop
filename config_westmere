@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# crosstool-NG crosstool-ng-1.23.0-313-gf97b3e38 Configuration
+# crosstool-NG crosstool-ng-1.23.0-319-gaca85cbb Configuration
 #
 CT_CONFIGURE_has_static_link=y
 CT_CONFIGURE_has_wget=y
@@ -320,21 +320,6 @@ CT_LIBC_MUSL=y
 CT_LIBC="musl"
 CT_LIBC_CHOICE_KSYM="MUSL"
 CT_THREADS="musl"
-# CT_GLIBC_USE_GNU is not set
-# CT_GLIBC_SRC_RELEASE is not set
-# CT_GLIBC_SRC_DEVEL is not set
-# CT_GLIBC_SRC_CUSTOM is not set
-# CT_GLIBC_V_2_27 is not set
-# CT_GLIBC_V_2_26 is not set
-# CT_GLIBC_V_2_25 is not set
-# CT_GLIBC_V_2_24 is not set
-# CT_GLIBC_V_2_23 is not set
-# CT_GLIBC_V_2_19 is not set
-# CT_GLIBC_V_2_17 is not set
-# CT_GLIBC_V_2_12_1 is not set
-# CT_GLIBC_KERNEL_VERSION_NONE is not set
-# CT_GLIBC_KERNEL_VERSION_AS_HEADERS is not set
-# CT_GLIBC_KERNEL_VERSION_CHOSEN is not set
 CT_LIBC_MUSL_PKG_KSYM="MUSL"
 CT_MUSL_DIR_NAME="musl"
 CT_MUSL_PKG_NAME="musl"
@@ -389,18 +374,13 @@ CT_GCC_USE_LINARO=y
 CT_GCC_USE="GCC_LINARO"
 CT_GCC_LINARO_PKG_NAME="gcc-linaro"
 # CT_GCC_LINARO_SRC_RELEASE is not set
-CT_GCC_LINARO_SRC_DEVEL=y
-CT_GCC_LINARO_DEVEL_VCS_git=y
+# CT_GCC_LINARO_SRC_DEVEL is not set
+# CT_GCC_LINARO_DEVEL_VCS_git is not set
 # CT_GCC_LINARO_DEVEL_VCS_svn is not set
 # CT_GCC_LINARO_DEVEL_VCS_hg is not set
 # CT_GCC_LINARO_DEVEL_VCS_cvs is not set
-CT_GCC_LINARO_DEVEL_VCS="git"
-CT_GCC_LINARO_DEVEL_URL="https://git.linaro.org/toolchain/gcc.git"
-CT_GCC_LINARO_DEVEL_BRANCH="gcc-7-branch"
-CT_GCC_LINARO_DEVEL_REVISION=""
-CT_GCC_LINARO_DEVEL_SUBDIR=""
-CT_GCC_LINARO_DEVEL_BOOTSTRAP=""
-# CT_GCC_LINARO_SRC_CUSTOM is not set
+CT_GCC_LINARO_SRC_CUSTOM=y
+CT_GCC_LINARO_CUSTOM_LOCATION="${CT_TOP_DIR}/src/GCC"
 CT_GCC_LINARO_VERY_NEW=y
 # CT_GCC_LINARO_V_7_2_2017_11 is not set
 # CT_GCC_LINARO_V_6_4_2017_11 is not set
@@ -431,7 +411,7 @@ CT_CC_GCC_ENABLE_CXX_FLAGS=""
 CT_CC_GCC_CORE_EXTRA_CONFIG_ARRAY=""
 CT_CC_GCC_EXTRA_CONFIG_ARRAY=""
 CT_CC_GCC_STATIC_LIBSTDCXX=y
-# CT_CC_GCC_SYSTEM_ZLIB is not set
+CT_CC_GCC_SYSTEM_ZLIB=y
 CT_CC_GCC_CONFIG_TLS=m
 
 #
