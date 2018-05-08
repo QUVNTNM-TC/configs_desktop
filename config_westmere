@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# crosstool-NG 1.23.0-360-g5472517b Configuration
+# crosstool-NG 1.23.0-385-g7d3d4d9e Configuration
 #
 CT_CONFIGURE_has_static_link=y
 CT_CONFIGURE_has_wget=y
@@ -11,8 +11,11 @@ CT_CONFIGURE_has_libtool_2_4_or_newer=y
 CT_CONFIGURE_has_libtoolize_2_4_or_newer=y
 CT_CONFIGURE_has_autoreconf_2_65_or_newer=y
 CT_CONFIGURE_has_gnu_m4_1_4_12_or_newer=y
-CT_CONFIGURE_has_svn=y
 CT_CONFIGURE_has_git=y
+CT_CONFIGURE_has_md5sum=y
+CT_CONFIGURE_has_sha1sum=y
+CT_CONFIGURE_has_sha256sum=y
+CT_CONFIGURE_has_sha512sum=y
 CT_CONFIGURE_has_install_with_strip_program=y
 CT_MODULES=y
 
@@ -374,9 +377,18 @@ CT_GCC_USE_LINARO=y
 CT_GCC_USE="GCC_LINARO"
 CT_GCC_LINARO_PKG_NAME="gcc-linaro"
 # CT_GCC_LINARO_SRC_RELEASE is not set
-# CT_GCC_LINARO_SRC_DEVEL is not set
-CT_GCC_LINARO_SRC_CUSTOM=y
-CT_GCC_LINARO_CUSTOM_LOCATION="${CT_TOP_DIR}/../src/GCC"
+CT_GCC_LINARO_SRC_DEVEL=y
+CT_GCC_LINARO_DEVEL_VCS_git=y
+# CT_GCC_LINARO_DEVEL_VCS_svn is not set
+# CT_GCC_LINARO_DEVEL_VCS_hg is not set
+# CT_GCC_LINARO_DEVEL_VCS_cvs is not set
+CT_GCC_LINARO_DEVEL_VCS="git"
+CT_GCC_LINARO_DEVEL_URL="https://git.linaro.org/toolchain/gcc.git"
+CT_GCC_LINARO_DEVEL_BRANCH="gcc-8-branch"
+CT_GCC_LINARO_DEVEL_REVISION=""
+CT_GCC_LINARO_DEVEL_SUBDIR=""
+CT_GCC_LINARO_DEVEL_BOOTSTRAP=""
+# CT_GCC_LINARO_SRC_CUSTOM is not set
 CT_GCC_LINARO_VERY_NEW=y
 # CT_GCC_LINARO_V_7_2_2017_11 is not set
 # CT_GCC_LINARO_V_6_4_2017_11 is not set
