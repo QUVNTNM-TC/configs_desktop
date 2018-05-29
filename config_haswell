@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# crosstool-NG 1.23.0-385-g7d3d4d9e Configuration
+# crosstool-NG 1.23.0-399-gea53be75 Configuration
 #
 CT_CONFIGURE_has_static_link=y
 CT_CONFIGURE_has_wget=y
@@ -113,6 +113,7 @@ CT_LOG_FILE_COMPRESS=y
 # Target options
 #
 # CT_ARCH_ALPHA is not set
+# CT_ARCH_ARC is not set
 # CT_ARCH_ARM is not set
 # CT_ARCH_AVR is not set
 # CT_ARCH_M68K is not set
@@ -345,6 +346,8 @@ CT_GLIBC_ARCHIVE_FILENAME="@{pkg_name}-@{version}"
 CT_GLIBC_ARCHIVE_DIRNAME="@{pkg_name}-@{version}"
 CT_GLIBC_ARCHIVE_FORMATS=".tar.xz .tar.bz2 .tar.gz"
 CT_GLIBC_SIGNATURE_FORMAT="packed/.sig"
+CT_GLIBC_2_27_or_later=y
+CT_GLIBC_2_27_or_older=y
 CT_GLIBC_later_than_2_26=y
 CT_GLIBC_2_26_or_later=y
 CT_GLIBC_later_than_2_24=y
@@ -377,6 +380,7 @@ CT_GLIBC_FORCE_UNWIND=y
 CT_GLIBC_KERNEL_VERSION_AS_HEADERS=y
 # CT_GLIBC_KERNEL_VERSION_CHOSEN is not set
 CT_GLIBC_MIN_KERNEL="4.16.1"
+# CT_GLIBC_ENABLE_WERROR is not set
 CT_LIBC_SUPPORT_THREADS_ANY=y
 CT_LIBC_SUPPORT_THREADS_NATIVE=y
 
@@ -409,18 +413,13 @@ CT_GCC_USE_LINARO=y
 CT_GCC_USE="GCC_LINARO"
 CT_GCC_LINARO_PKG_NAME="gcc-linaro"
 # CT_GCC_LINARO_SRC_RELEASE is not set
-CT_GCC_LINARO_SRC_DEVEL=y
-CT_GCC_LINARO_DEVEL_VCS_git=y
+# CT_GCC_LINARO_SRC_DEVEL is not set
+# CT_GCC_LINARO_DEVEL_VCS_git is not set
 # CT_GCC_LINARO_DEVEL_VCS_svn is not set
 # CT_GCC_LINARO_DEVEL_VCS_hg is not set
 # CT_GCC_LINARO_DEVEL_VCS_cvs is not set
-CT_GCC_LINARO_DEVEL_VCS="git"
-CT_GCC_LINARO_DEVEL_URL="https://git.linaro.org/toolchain/gcc.git"
-CT_GCC_LINARO_DEVEL_BRANCH="gcc-8-branch"
-CT_GCC_LINARO_DEVEL_REVISION=""
-CT_GCC_LINARO_DEVEL_SUBDIR=""
-CT_GCC_LINARO_DEVEL_BOOTSTRAP=""
-# CT_GCC_LINARO_SRC_CUSTOM is not set
+CT_GCC_LINARO_SRC_CUSTOM=y
+CT_GCC_LINARO_CUSTOM_LOCATION="${CT_TOP_DIR}/../src/GCC"
 CT_GCC_LINARO_VERY_NEW=y
 # CT_GCC_LINARO_V_7_2_2017_11 is not set
 # CT_GCC_LINARO_V_6_4_2017_11 is not set
